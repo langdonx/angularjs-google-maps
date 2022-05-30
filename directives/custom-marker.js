@@ -71,7 +71,7 @@
     };
 
     CustomMarker.prototype.setDraggable = function(draggable) {
-      this.draggable = draggable;
+      this.draggable = !!draggable;
     };
 
     CustomMarker.prototype.getPosition = function() {

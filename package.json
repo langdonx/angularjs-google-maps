@@ -12,6 +12,8 @@
     "node": ">=0.8.0"
   },
   "scripts": {
+    "preshrinkwrap": "git checkout -- npm-shrinkwrap.json",
+    "postshrinkwrap": "git checkout -- npm-shrinkwrap.json",
     "test": "gulp test"
   },
   "devDependencies": {
